@@ -38,13 +38,27 @@
     opacity: 8;
     color:yellowgreen;
 }
-.section{
-    width: 100%;
-    height:calc (100vh-120px);
-    background-image: url('bg-home.jpg');
-    background-size: cover;
-    display: flex;
-    position:sticky;
-    justify-content: center;
-    align-items: center;
+.content img{
+    width: 1520px;
+    display: block;
+    /* height: 600px; */
+    position: absolute;
+
 }
+.content a{
+    background: url(icons.png) no-repeat 0 -140px;
+	color: white;
+	font-family: quicksand-bold-webfont;
+	font-size: 25px;
+	height: 200px;
+	line-height: 25px;
+	padding: 50px 10px;
+	position: absolute;
+	right: 200px;
+	text-align: center;
+	text-transform: uppercase;
+	top: 300px;
+	width: 160px;
+}    
+    
+   
