@@ -7,24 +7,23 @@
 .navbar{
     position: sticky;
     top: 0;
-    left: 0;
+    /* left: 0; */
     width: 100%;
     background:#EEEBEC;
 }
 .nav{
-    padding: 10px 10vw;
+    padding: 5px 5vw;
     display: flex;  
     justify-content: space-between;
 }
 .logo{
-
-
+    margin-top: 2rem;
 }
 .links-container{
     display: flex;
-    padding: 25px ;
     justify-content: center;
     list-style: none;
+    padding-bottom:30px;
 }
 .link{
     text-transform: capitalize;
@@ -39,26 +38,25 @@
     color:yellowgreen;
 }
 .content img{
-    width: 1520px;
+    width: 100vw;
     display: block;
     /* height: 600px; */
-    position: absolute;
-
+    /* position: absolute; */
 }
 .content a{
-    background: url(icons.png) no-repeat 0 -140px;
+    background: url(images/icons.png) no-repeat 0 -140px;
 	color: white;
 	font-family: quicksand-bold-webfont;
 	font-size: 25px;
-	height: 200px;
 	line-height: 25px;
-	padding: 50px 10px;
+	padding: 40px 40px;
 	position: absolute;
-	right: 200px;
+	right: 310px;
 	text-align: center;
 	text-transform: uppercase;
-	top: 300px;
-	width: 160px;
+	top: 690px;
+    width: 160px;
+    height:140px;
 }    
     
    
