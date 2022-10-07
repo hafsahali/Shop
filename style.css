@@ -4,20 +4,20 @@
     box-sizing: border-box;
     font-family: 'roboto', sans-serif;
 }
+body{
+ overflow-x: hidden;
+}
 .navbar{
-    position: sticky;
+    position: fixed;
     top: 0;
     /* left: 0; */
     width: 100%;
     background:#EEEBEC;
-}
-.nav{
-    padding: 5px 5vw;
-    display: flex;  
-    justify-content: space-between;
+    overflow: hidden;
 }
 .logo{
     margin-top: 2rem;
+    margin-left: 20rem;
 }
 .links-container{
     display: flex;
@@ -27,7 +27,7 @@
 }
 .link{
     text-transform: capitalize;
-    padding: 0 30px;
+    padding:40px;
     text-decoration: none;
     color:black;
     opacity: 0.5;
@@ -40,8 +40,6 @@
 .content img{
     width: 100vw;
     display: block;
-    /* height: 600px; */
-    /* position: absolute; */
 }
 .content a{
     background: url(images/icons.png) no-repeat 0 -140px;
@@ -58,5 +56,26 @@
     width: 160px;
     height:140px;
 }    
+.product{
+    background-color: #eae7e8;
+	margin: 0;
+	max-width: none;
+	padding: 0;
+    width: 100%;
+
+}
+.product img{
     
+
+}
+.product h1{
+    color: brown;
+	display: block;
+	font-family: lato-bold-webfont;
+	font-size: 20px;
+	font-weight: normal;
+	padding: 50px 0 20px;
+	text-align: left;
+    text-transform: uppercase;
+} 
    
