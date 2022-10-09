@@ -58,15 +58,23 @@ body{
 }    
 .product{
     background-color: #eae7e8;
-	margin: 0;
-	max-width: none;
-	padding: 0;
-    width: 100%;
-
+    width: 100%;  
+}
+.product div{
+    margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+}
+.product div div{
+    float: left;
+	padding: 0 0 0 40px;
+	width: 560px; 
 }
 .product img{
-    
-
+    display: block;
+	float: right;
+	position: relative;
+	width: auto;
 }
 .product h1{
     color: brown;
@@ -75,7 +83,19 @@ body{
 	font-size: 20px;
 	font-weight: normal;
 	padding: 50px 0 20px;
-	text-align: left;
     text-transform: uppercase;
 } 
-   
+.product h2{
+    color: #E32A62;
+	display: block;
+	font-family: magra-bold-webfont;
+	font-size: 35px;
+	line-height: 30px;
+	padding: 0 0 26px;
+}
+.product p{
+    color: #7a6666;
+	font-family: roboto-regular-webfont;
+	font-size: 20px;
+	line-height: 30px;
+}
