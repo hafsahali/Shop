@@ -42,7 +42,7 @@ body{
     display: block;
 }
 .content a{
-    background: url(../images/icons.png) no-repeat 0 -140px;
+    background: url(/images/icons.png) no-repeat 0 -140px;
 	color: white;
 	font-family: quicksand-bold-webfont;
 	font-size: 25px;
