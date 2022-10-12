@@ -13,7 +13,7 @@ body{
     /* left: 0; */
     width: 100%;
     background:#EEEBEC;
-    overflow: hidden;
+    overflow: hidden;  
 }
 .logo{
     margin-top: 2rem;
@@ -37,4 +37,3 @@ body{
     opacity: 8;
     color:yellowgreen;
 }
-/* navbar */
