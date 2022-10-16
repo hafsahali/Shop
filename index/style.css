@@ -42,7 +42,7 @@ body{
     display: block;
 }
 .content a{
-    background: url(/images/icons.png) no-repeat 0 -140px;
+    background: url("/images/icons.png") no-repeat  0 -140px;
 	color: white;
 	font-family: quicksand-bold-webfont;
 	font-size: 25px;
@@ -126,7 +126,7 @@ body{
 	width: 220px;
 }
 .section div ul li a{
-    background: url(images/icons.png) no-repeat;
+    background: url("/images/icons.png") no-repeat;
 	display: block;
 	height: 44px;
 	margin: 0 auto 22px;
@@ -189,7 +189,7 @@ body{
 	width: 240px;
 }
 #footer div .connect a {
-	background: url(images/icons.png) no-repeat;
+	background: url("/images/icons.png") no-repeat;
 	display: block;
 	float: left;
 	height: 30px;
